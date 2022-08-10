@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.promineotech.jeep.service;
+
+/**
+ * @author f55m818
+ *
+ */
+public class DefaultJeepSalesService {
+
+}

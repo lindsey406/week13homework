@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package com.promineotech.jeep.controller;
 
 import java.util.List;
