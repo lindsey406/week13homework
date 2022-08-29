@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.promineotech.jeep.controller;
+
+/**
+ * @author f55m818
+ *
+ */
+public class DefaultJeepOrderController {
+
+}

@@ -18,7 +18,7 @@ import com.promineotech.jeep.entity.Jeep;
 import com.promineotech.jeep.entity.JeepModel;
 import lombok.extern.slf4j.Slf4j;
 
-@Service
+@Component
 @Slf4j
 
 public class DefaultJeepSalesDao implements JeepSalesDao {
@@ -27,7 +27,7 @@ public class DefaultJeepSalesDao implements JeepSalesDao {
 
   @Override
   public List<Jeep> fetchJeeps(JeepModel model, String trim) {
-    log.debug("DAO: model={}, trim={}", model, trim);
+    log.info("DAO: model={}, trim={}", model, trim);
     
   //@formatter:off  
     String sql = ""

@@ -23,3 +23,6 @@ public class DefaultJeepSalesController implements JeepSalesController {
   // Rob returned jeepSalesService.fetchJeeps(model, trim);
   // assignment left null;
 }
+//@Validated
+//@OpenAPIDefinition(info = @Info(title = "Jeep Order Service"),
+//servers = {@Server(url = "http://localhost:8080", description = "Local server.")})
